@@ -14,6 +14,10 @@
 		973603EA243EEE0F00E2C9E5 /* Onboarding.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 973603E8243EEE0F00E2C9E5 /* Onboarding.xcdatamodeld */; };
 		973603EC243EEE1100E2C9E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 973603EB243EEE1100E2C9E5 /* Assets.xcassets */; };
 		973603EF243EEE1100E2C9E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 973603ED243EEE1100E2C9E5 /* LaunchScreen.storyboard */; };
+		973603F7243EEE9500E2C9E5 /* OnboardingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973603F6243EEE9500E2C9E5 /* OnboardingPage.swift */; };
+		973603F9243EF04200E2C9E5 /* Img1.png in Resources */ = {isa = PBXBuildFile; fileRef = 973603F8243EF04200E2C9E5 /* Img1.png */; };
+		973603FB243EF0DD00E2C9E5 /* img2.png in Resources */ = {isa = PBXBuildFile; fileRef = 973603FA243EF0DD00E2C9E5 /* img2.png */; };
+		973603FD243EF31D00E2C9E5 /* img3.png in Resources */ = {isa = PBXBuildFile; fileRef = 973603FC243EF31D00E2C9E5 /* img3.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		973603EB243EEE1100E2C9E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		973603EE243EEE1100E2C9E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		973603F0243EEE1100E2C9E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		973603F6243EEE9500E2C9E5 /* OnboardingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPage.swift; sourceTree = "<group>"; };
+		973603F8243EF04200E2C9E5 /* Img1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Img1.png; path = ../../../../Downloads/Img1.png; sourceTree = "<group>"; };
+		973603FA243EF0DD00E2C9E5 /* img2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = img2.png; path = ../../../../Downloads/img2.png; sourceTree = "<group>"; };
+		973603FC243EF31D00E2C9E5 /* img3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = img3.png; path = ../../../Downloads/img3.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +52,7 @@
 			children = (
 				973603DE243EEE0F00E2C9E5 /* Onboarding */,
 				973603DD243EEE0F00E2C9E5 /* Products */,
+				973603FC243EF31D00E2C9E5 /* img3.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,10 +68,13 @@
 			isa = PBXGroup;
 			children = (
 				973603DF243EEE0F00E2C9E5 /* AppDelegate.swift */,
+				973603F6243EEE9500E2C9E5 /* OnboardingPage.swift */,
 				973603E1243EEE0F00E2C9E5 /* SceneDelegate.swift */,
 				973603E3243EEE0F00E2C9E5 /* ViewController.swift */,
 				973603E5243EEE0F00E2C9E5 /* Main.storyboard */,
+				973603FA243EF0DD00E2C9E5 /* img2.png */,
 				973603EB243EEE1100E2C9E5 /* Assets.xcassets */,
+				973603F8243EF04200E2C9E5 /* Img1.png */,
 				973603ED243EEE1100E2C9E5 /* LaunchScreen.storyboard */,
 				973603F0243EEE1100E2C9E5 /* Info.plist */,
 				973603E8243EEE0F00E2C9E5 /* Onboarding.xcdatamodeld */,
@@ -129,8 +141,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				973603EF243EEE1100E2C9E5 /* LaunchScreen.storyboard in Resources */,
+				973603FB243EF0DD00E2C9E5 /* img2.png in Resources */,
+				973603F9243EF04200E2C9E5 /* Img1.png in Resources */,
 				973603EC243EEE1100E2C9E5 /* Assets.xcassets in Resources */,
 				973603E7243EEE0F00E2C9E5 /* Main.storyboard in Resources */,
+				973603FD243EF31D00E2C9E5 /* img3.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,6 +160,7 @@
 				973603E0243EEE0F00E2C9E5 /* AppDelegate.swift in Sources */,
 				973603EA243EEE0F00E2C9E5 /* Onboarding.xcdatamodeld in Sources */,
 				973603E2243EEE0F00E2C9E5 /* SceneDelegate.swift in Sources */,
+				973603F7243EEE9500E2C9E5 /* OnboardingPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
