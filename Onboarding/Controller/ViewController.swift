@@ -8,7 +8,9 @@
 
 import UIKit
 
+
 class ViewController: UIViewController {
+    
     
     
     var scrollView: UIScrollView!
@@ -64,11 +66,21 @@ class ViewController: UIViewController {
         
         secondView.newImage.image = UIImage(named: "img2")
         thirdView.newImage.image = UIImage(named: "img3")
-//        
-//        thirdView.button.addTarget(self, action: #selector(goToLogin), for: .touchUpInside)
-//
-//
+        
+        thirdView.button.addTarget(self, action: #selector(goToLogin), for: .touchUpInside)
+
+
         
         
     }
+    
+    
+    
+    @objc func goToLogin() {
+        
+        let nextVC = LoginVC()
+        self.view.window!.rootViewController = nextVC
+        
+    }
+    
 }

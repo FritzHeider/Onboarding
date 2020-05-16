@@ -23,7 +23,7 @@ class OnboardingPage: UIView {
     }
     
     func setup() {
-        //        self.backgroundColor = UIColor.purple
+        self.backgroundColor = UIColor.purple
         button = UIButton(frame: .zero)
         button.translatesAutoresizingMaskIntoConstraints = false
         button.backgroundColor = UIColor(displayP3Red: 1.0, green: 0.0, blue: 0.0, alpha: 1.0)
